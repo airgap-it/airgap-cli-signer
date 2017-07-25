@@ -1,0 +1,22 @@
+{
+  "name": "bip39-tx-signer",
+  "version": "1.0.0",
+  "description": "A small CLI that allows you to sign your transactions using your bip39 mnenomic phrase and the correct derivation path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Schöni",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^4.0.2",
+    "bip39": "^2.3.1",
+    "bitcoinjs-lib": "^3.1.0",
+    "ethereumjs-tx": "^1.3.1",
+    "ethereumjs-units": "^0.2.0",
+    "ethereumjs-util": "^5.1.2",
+    "prompt": "^1.0.0",
+    "qrcode-terminal": "^0.11.0",
+    "yargs": "^8.0.2"
+  }
+}
